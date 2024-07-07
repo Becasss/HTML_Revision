@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all-browser{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 15px;
+}
+.all-browser>h1, .browser{
+    margin: 5px;
+    padding: 10px;
+}
+.browser{
+    background-color: white;
+}
+.browser > h1, p{
+    margin: 5px;
+    padding: 10px;
+    font-size: 90%;
+    text-align: center;
+}
