@@ -41,3 +41,6 @@ ul{
     margin: 2px 10px;
     color: white;
 }
+li{
+    float: left;
+}
