@@ -50,3 +50,7 @@ li a{
     padding: 10px;
     margin: 10px;
 }
+li a:hover{
+    background-color: yellow;
+    color: black;
+}
