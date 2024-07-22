@@ -20,6 +20,7 @@ nav{
     padding: 20px;
     text-align:left;
     font-size: 18px;
+    color: black;
 }
 nav ul{
     list-style-type: none;
@@ -46,5 +47,17 @@ section::after{
     clear: both;
 }
 footer{
-    
+    background: beige;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+@media screen(max-width: 768px){
+    nav,article{
+        width: 100%;
+        height:auto;
+    }
 }
