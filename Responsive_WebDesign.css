@@ -64,5 +64,3 @@ footer{
 @media only screen and (max-width:500px){
     .menu, .main, .right{
         width: 100%;
-    }
-}
