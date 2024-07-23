@@ -58,4 +58,9 @@ footer{
     font-size: 14px;
     font-weight: bold;
 }
-@media (max-width:)
+@media (max-width:600px){
+    section{
+        flex-direction: column;
+        -webkit-flex-direction: column;
+    }
+}
