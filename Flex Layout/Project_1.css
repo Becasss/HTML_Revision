@@ -1,7 +1,12 @@
 .mycontainer{
     display: flex;
-
+    justify-content: center;
 }
-.mycontainer > div .box{
+.mycontainer > div{
     width: 10%;
+    background:aqua;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
 }
