@@ -38,3 +38,24 @@ nav ul li a{
 nav ul li a:hover{
     background-color: #555;
 }
+
+article{
+    -webkit-flex:3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #5d4c4c;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+footer{
+    background-color: #772f2f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+@media (max-width:)
