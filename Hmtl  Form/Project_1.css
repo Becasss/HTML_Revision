@@ -3,6 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 input[type="submit"]{
     padding: 10px 20px;
     background: #4CAF50;
