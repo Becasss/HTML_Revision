@@ -5,6 +5,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #351c1c;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
 form{
     width: 50%;
     margin: 0 auto;
