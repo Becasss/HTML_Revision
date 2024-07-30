@@ -35,9 +35,9 @@ nav ul li a:hover{
     color: #fff;
 }
 article{
-    -webkit-flex: 5;
-    -ms-flex: 5;
-    flex: 5;  
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;  
     background-color: #9d6262; 
     height: 200px;
     padding-left: 10px;
@@ -48,4 +48,10 @@ footer{
     padding: 10px;
     text-align: center;
     font-size: 18px;
+}
+@media screen and (max-width: 800px){
+    nav,article{
+        flex-direction: column;
+        -webkit-flex-direction: column;
+    }
 }
