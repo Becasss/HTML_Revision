@@ -15,3 +15,30 @@ section{
     display: -ms-flex;
     display: flex;
 }
+nav{
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;  
+    background-color: #ccc; 
+    height: 200px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #555;
+    color: #fff;
+}
+article{
+    -webkit-flex: 5;
+    -ms-flex: 5;
+    flex: 5;  
+    background-color: #9d6262; 
+    height: 200px;
+    padding-left: 10px;
+}
