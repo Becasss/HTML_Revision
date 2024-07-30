@@ -10,3 +10,24 @@ header{
     font-size: 30px;
     text-align: center;
 }
+nav{
+    float: left;
+    width: 30%;
+    background: lightblue;
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    height: 300px;
+    overflow: auto;
+
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+li a{
+    text-decoration: none;
+    color: rgb(12, 0, 0);
+    display: block;
+    padding: 10px;
+}
