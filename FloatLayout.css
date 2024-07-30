@@ -54,5 +54,11 @@ footer{
     padding: 20px;
     font-size: 20px;
     height: 100px;
-    
+
+}
+@media(max-width:600px){
+    nav,article{
+        width: 100%;
+        height: auto;
+    }
 }
