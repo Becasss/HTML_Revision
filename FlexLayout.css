@@ -10,3 +10,8 @@ header{
     text-align: center;
     font-size: 24px;
 }
+section{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}
